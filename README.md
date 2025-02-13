@@ -52,7 +52,7 @@
 ![Image](https://github.com/user-attachments/assets/22e7f75c-a3cb-43f0-a80c-0f9bbb934677)
 
 ## steps to set up this project
-- clone this project using 
+- clone this project using https://github.com/Anjum799/Bank.git
 - install the necessary packages
 
   pip install - r requirements.txt
@@ -60,4 +60,4 @@
 
   python manage.py runserver
 
-
+Thank You

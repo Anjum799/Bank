@@ -18,6 +18,7 @@
 ## Server Side ⚡
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![Sqlite3](https://img.shields.io/badge/sqlite3-%23003B57.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ## Development Tools 📺
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)

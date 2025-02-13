@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Creation</title>
+    <link rel="stylesheet" href="{% static 'css/create.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Account</h1> <br>
+        <form action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">SUBMIT</button>
+        </form> <br>
+        <a href="{% url 'home' %}">
+            <button id="btn1" type="submit">Home</button>
+        </a>
+    </div>
+</body>
+</html>

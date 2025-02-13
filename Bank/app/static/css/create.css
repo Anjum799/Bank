@@ -1,0 +1,90 @@
+/* General Styles */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(to right, #4facfe, #00f2fe); Background like PIN Generation Page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centering the Form */
+.container {
+    background: radial-gradient(circle at bottom right,#3b2f44, #a076be, #2c003e, #000000);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+/* Form Styling */
+h1 {
+    color:white;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:white;
+}
+/* Submit Button */
+button {
+    background:black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2c003e;
+}
+
+/* Responsive */
+/* @media (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+} */
+nav{
+    border: 2px solid black;
+    height: 55px;
+    width: 100%;
+    background-color:black;
+}
+nav>h1{
+    margin-top:10px;
+    text-align: center;
+    color:white;
+}
+nav>img{
+    height: 60px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left:32%;
+}
+#btn1{
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+#btn1:hover {
+    background: #2c003e;
+}

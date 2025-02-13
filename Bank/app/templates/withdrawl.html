@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/withdrawl.css' %}">
+</head>
+<body>
+    <div class="container">
+    <h1>Withdrawl The Amount</h1> <br>
+    {% if var %}
+        <h2>Available balance is:{{bal}}</h2>
+    {% else %}
+        <form action="" method="POST">
+            {% csrf_token %}
+            Account Number:  <input type="number" name="acc" id=""> <br><br>
+            PIN: <input type="number"name="pin",id=""><br><br>
+            Withdrawl Amount: <input type="number" name="amt" id=""> <br><br>
+            <button type="submit" class="submit-btn">WITHDRAWL</button>
+        </form>
+        <a href="{% url 'home' %}">
+            <button id="btn1" type="submit">Home</button>
+        </a>
+    </div>
+    {% endif %}
+    
+</body>
+</html>

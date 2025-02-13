@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+  <nav>
+    <h1>Welcome to ARJS Bank</h1>
+    <img src="{% static 'images/banklogo.png' %}" alt="">
+  </nav>
+    <br><br>
+    <div class="images">
+        <div>
+            <img src="{% static 'images/acc-create.png' %}" alt="">
+             <a href="{% url 'create'%}"> <h1>ACCOUNT CREATION</h1></a>
+        </div>
+        <div>
+            <img src="{% static 'images/pin.png' %}" alt="">
+            <a href="{% url 'pin_generation' %}"><h1>PIN GENERATION</h1></a>
+        </div>
+        <div>
+            <img src="{% static 'images/balance.png' %}" alt="">
+            <a href="{% url 'balance' %}"><h1>CHECK BALANCE</h1></a>
+        </div>
+        <div>
+            <img src="{% static 'images/deposit.png' %}" alt="">
+            <a href="{% url 'deposit' %}"><h1>DEPOSIT</h1></a>
+        </div>
+        <div>
+            <img src="{% static 'images/withdraw.png' %}" alt="">
+            <a href="{% url 'withdrawl' %}"><h1>WITHDRAW</h1></a>
+        </div>
+        <div>
+            <img src="{% static 'images/transfer.png' %}" alt="">
+            <a href="{% url 'account_transfer' %}"><h1>ACCOUNT TRANSFER</h1></a>
+        </div>
+    </div> 
+</body>
+</html>

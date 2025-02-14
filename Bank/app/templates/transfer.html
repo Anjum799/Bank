@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Transfer Account</title>
     <link rel="stylesheet" href="{% static 'css/transfer.css' %}">
 </head>
 <body>
+    <a href="{% url 'home' %}">
+        <button id="btn1" type="submit">⬅</button>
+    </a> 
     <div class="container">
         <h1>Account transfer</h1><br>
         <form action="" method="POST">
@@ -17,10 +20,7 @@
             Amount: <input type="number" name="amt"><br><br>
             PIN: <input type="number"name="pin",id="" maxlength="4"><br><br>
             <button type="submit" class="submit-btn">TRANSFER AMOUNT</button>
-        </form>
-        <a href="{% url 'home' %}">
-            <button id="btn1" type="submit">Home</button>
-        </a>    
+        </form>   
     </div>
 </body>
 </html>

@@ -35,22 +35,31 @@
 ![Image](https://github.com/user-attachments/assets/edf0d590-3e46-401b-adcf-750d050cd205)
 
 ## Account Creation 
-![Image](https://github.com/user-attachments/assets/46f9baf0-2861-4de3-9bc9-1fd94c845659)
+![Image](https://github.com/user-attachments/assets/872f711e-4775-4521-a3d7-962bc0be04dd)
 
 ## Pin-Generator 
-![Image](https://github.com/user-attachments/assets/e8ff8511-2f0d-4d2d-8033-8e45ae2ca204)
+![Image](https://github.com/user-attachments/assets/8ca39ba3-4d8f-4aea-85c6-3fd9e17bdc02)
 
 ## Checking Balance
-![Image](https://github.com/user-attachments/assets/da25a7ea-6908-4bf5-940c-e7148b35096a)
+![Image](https://github.com/user-attachments/assets/bd3fd187-7fc7-41f9-8724-28bf90b56326)
+
+## Get Balance Amount
+![Image](https://github.com/user-attachments/assets/3375cf71-6a8a-49bc-a691-b2dbb2aea3f9)
 
 ## Deposit Amount
-![Image](https://github.com/user-attachments/assets/6fe95437-5a40-4516-96db-0e984c9e4a15)
+![Image](https://github.com/user-attachments/assets/fe4a8b9c-4b42-46a0-a778-6fe3dea12bc3)
+
+## After Deposit Amount Balance
+![Image](https://github.com/user-attachments/assets/073b9b56-6742-488a-a8a1-e8bc2c012129)
 
 ## Withdraw Amount
-![Image](https://github.com/user-attachments/assets/5c8e0ae6-efe4-47f9-b930-0e4dcfbc7b3c)
+![Image](https://github.com/user-attachments/assets/aa713ca7-1e2a-4083-ae91-42e650bb6c4b)
+
+## After Withdraw Amount Balance
+![Image](https://github.com/user-attachments/assets/ae24354d-762d-4cf8-afcf-d8a25ef467e5)
 
 ## Account Transfer
-![Image](https://github.com/user-attachments/assets/22e7f75c-a3cb-43f0-a80c-0f9bbb934677)
+![Image](https://github.com/user-attachments/assets/75713151-385b-4712-9824-8a7dc0a11018)
 
 ## steps to set up this project
 - clone this project using https://github.com/Anjum799/Bank.git

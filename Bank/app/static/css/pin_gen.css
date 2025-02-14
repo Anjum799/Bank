@@ -18,7 +18,7 @@ body {
 .container {
     background: radial-gradient(circle at bottom right,#3b2f44, #a076be, #2c003e, #000000);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     width:fit-content ;
     text-align: center;
@@ -51,11 +51,7 @@ input {
     /* background:rgb(8, 8, 146); */
     color: white;
 
-}
-
-.see-pin-btn:hover {
-    background: #2c003e;
-}
+}                                             
 
 button.submit-btn {
     width: 100%;
@@ -92,9 +88,13 @@ nav>img{
 #btn1{
     border-radius: 10px;
     height: 40px;
-    width: 90px;
-    background-color:black;
-    color: antiquewhite;
+    width: 40px;
+    position: absolute;
+    top:20%;
+    left: 32.5%;
+    background-color: black;
+    text-align: center;
+    color:white;
 }
 #btn1:hover {
     background: #2c003e;

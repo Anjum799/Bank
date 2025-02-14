@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Withdraw Amount</title>
     <link rel="stylesheet" href="{% static 'css/withdrawl.css' %}">
 </head>
 <body>
+    <a href="{% url 'home' %}">
+        <button id="btn1" type="submit">⬅</button>
+    </a>
     <div class="container">
     <h1>Withdrawl The Amount</h1> <br>
     {% if var %}
@@ -20,9 +23,6 @@
             Withdrawl Amount: <input type="number" name="amt" id=""> <br><br>
             <button type="submit" class="submit-btn">WITHDRAWL</button>
         </form>
-        <a href="{% url 'home' %}">
-            <button id="btn1" type="submit">Home</button>
-        </a>
     </div>
     {% endif %}
     

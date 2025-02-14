@@ -49,13 +49,13 @@
 ## Deposit Amount
 ![Image](https://github.com/user-attachments/assets/fe4a8b9c-4b42-46a0-a778-6fe3dea12bc3)
 
-## After Deposit Amount Balance
+## After Deposit Balance Amount
 ![Image](https://github.com/user-attachments/assets/073b9b56-6742-488a-a8a1-e8bc2c012129)
 
 ## Withdraw Amount
 ![Image](https://github.com/user-attachments/assets/aa713ca7-1e2a-4083-ae91-42e650bb6c4b)
 
-## After Withdraw Amount Balance
+## After Withdraw Balance Amount
 ![Image](https://github.com/user-attachments/assets/ae24354d-762d-4cf8-afcf-d8a25ef467e5)
 
 ## Account Transfer

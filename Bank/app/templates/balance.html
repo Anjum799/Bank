@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="{% static 'css/balance.css' %}">
 </head>
 <body>
+  <a href="{% url 'home' %}">
+    <button id="btn1" type="submit">⬅</button>
+    </a>
   <div class="container">
     <h1>Check Your Balance Here</h1> <br>
     {% if var %}
@@ -20,9 +23,6 @@
         <br><br>
        <button type="submit" class="submit-btn">CHECK BALANCE</button>
     </form>
-    <a href="{% url 'home' %}">
-      <button id="btn1" type="submit">Home</button>
-    </a>
   </div>
   {% endif %}
 </body>

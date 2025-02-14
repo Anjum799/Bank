@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="{% static 'css/create.css' %}">
 </head>
 <body>
+    <a href="{% url 'home' %}">
+        <button id="btn1" type="submit">⬅</button>
+    </a>
     <div class="container">
         <h1>Create Account</h1> <br>
         <form action="" method="POST" enctype="multipart/form-data">
             {% csrf_token %}
             {{ form.as_p }}
             <button type="submit">SUBMIT</button>
-        </form> <br>
-        <a href="{% url 'home' %}">
-            <button id="btn1" type="submit">Home</button>
-        </a>
+        </form> 
     </div>
 </body>
 </html>

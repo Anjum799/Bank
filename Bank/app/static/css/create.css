@@ -80,7 +80,10 @@ nav>img{
 #btn1{
     border-radius: 10px;
     height: 40px;
-    width: 90px;
+    width: 40px;
+    position: absolute;
+    top:12%;
+    left: 32.5%;
     background-color: black;
     text-align: center;
     color:white;

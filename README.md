@@ -7,7 +7,7 @@
 - Pin generation basic encryption is done
 - Deposit
 - Withdrawl
-- acc to acc transfer
+- Account to account transfer
   
 # TECHNOLOGIES USED 📌
 ## Front End 📫

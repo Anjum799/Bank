@@ -3,7 +3,7 @@
 - This is a project of bank management where user can create an account and do basic transactions
 
 ## features
-- auto send mail when account is created , for every transaction the mail will be sent to the user
+- Auto send mail when account is created , for every transaction the mail will be sent to the user
 - pin generation basic encryption is done
 - deposit
 - withdrawl

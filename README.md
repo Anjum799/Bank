@@ -6,7 +6,7 @@
 - Auto send mail when account is created , for every transaction the mail will be sent to the user
 - Pin generation basic encryption is done
 - Deposit
-- withdrawl
+- Withdrawl
 - acc to acc transfer
   
 # TECHNOLOGIES USED 📌

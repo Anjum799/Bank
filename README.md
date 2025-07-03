@@ -5,7 +5,7 @@
 ## features
 - Auto send mail when account is created , for every transaction the mail will be sent to the user
 - Pin generation basic encryption is done
-- deposit
+- Deposit
 - withdrawl
 - acc to acc transfer
   

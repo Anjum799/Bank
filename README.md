@@ -1,4 +1,4 @@
-r## Bank
+## Bank
 - This is a project of bank management where user can create an account and do basic transactions
 
 ## features
